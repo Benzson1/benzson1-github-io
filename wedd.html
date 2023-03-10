@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modern Wedding Invitation</title>
+	<style>
+		body {
+			background-color: #f5f5f5;
+			font-family: "Helvetica Neue", Arial, sans-serif;
+			color: #444;
+		}
+		.container {
+			width: 80%;
+			margin: 0 auto;
+			padding: 50px;
+			background-color: #fff;
+			box-shadow: 0px 0px 10px #ccc;
+			border-radius: 10px;
+		}
+		h1, h2 {
+			text-align: center;
+			font-weight: normal;
+		}
+		h1 {
+			font-size: 3.5rem;
+			margin-bottom: 0;
+			color: #333;
+		}
+		h2 {
+			font-size: 2rem;
+			margin-top: 0;
+			color: #333;
+		}
+		.date {
+			font-size: 1.5rem;
+			margin: 20px 0;
+			text-align: center;
+			color: #333;
+		}
+		.location {
+			font-size: 1.2rem;
+			margin-bottom: 20px;
+			text-align: center;
+			color: #333;
+		}
+		.rsvp {
+			background-color: #f24b6a;
+			color: #fff;
+			display: inline-block;
+			padding: 10px 20px;
+			border-radius: 5px;
+			text-decoration: none;
+			margin-top: 20px;
+			font-size: 1.2rem;
+			transition: all 0.3s ease;
+			border: 2px solid #f24b6a;
+		}
+		.rsvp:hover {
+			background-color: #fff;
+			color: #f24b6a;
+			border: 2px solid #f24b6a;
+			cursor: pointer;
+		}
+		.footer {
+			margin-top: 50px;
+			font-size: 1.2rem;
+			color: #444;
+			text-align: center;
+		}
+		.details {
+			margin-top: 50px;
+			font-size: 1.2rem;
+			color: #444;
+			line-height: 1.5;
+			text-align: justify;
+		}
+		.background {
+			background-image: url("https://i.imgur.com/G0m3qX9.jpg");
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+			height: 600px;
+			width: 100%;
+		}
+		.overlay {
+			background-color: rgba(255, 255, 255, 0.7);
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			text-align: center;
+		}
+		.overlay h1 {
+			font-size: 4rem;
+			margin-bottom: 0;
+			color: #333;
+		}
+		.overlay h2 {
+			font-size: 2rem;
+			margin-top: 0;
+			color: #333;
+		}
+		.overlay p {
+			font-size: 1.5rem;
+			margin-top: 20px;
+			color: #444;
+		}
+        .schedule {
+	margin: 50px auto;
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+th {
+	font-size: 20px;
+	color: #363636;
+}
+
+td {
+	padding: 10px;
+	border: 1px solid #b31fd1;
+    background-color: #f597c6;
+	font-size: 16px;
+	color: #363636;
+}
+
+.time {
+	background-color: #ff5ec1;
+	color: #201f1f;
+	font-weight: bold;
+}
+
+.event {
+	font-weight: bold;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+.steven {
+           font-size: 1.5rem;
+           text-align: center;
+           font-family:cursive;
+         
+        }
+.fullpage-image {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-image: url(123.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			z-index: 999;
+			opacity: 1;
+			transition: opacity 0.5s ease-in-out;
+		}
+        
+	</style>
+</head>
+<style>
+    body {
+      background-image: url('lol.jpg');
+    }
+    </style>
+<body>
+	<div class="fullpage-image"></div>
+	<script>
+		window.addEventListener('scroll', function() {
+			const image = document.querySelector('.fullpage-image');
+			if (window.scrollY >= window.innerHeight * 0.1) {
+				image.style.opacity = '0';
+			} else {
+				image.style.opacity = '1';
+			}
+		});
+	</script>
+<p style="margin-top: 40px;">
+	<div class="background">
+		<div class="overlay">
+			<h1>OSCAR &amp; KELLY</h1>
+            <br>
+			<h2>Are Getting Married!</h2>
+			<p>APR 28TH, 2023 • 6.00PM</p>
+			<p>Ampppaaanngggg </p>
+		</div>
+	</div>
+	<div class="container">
+		<h1>You're Invited!</h1>
+        <div class="steven">
+                <p>To our family &amp; friends,</p>               
+                <p>We are so excited to celebrate our wedding with you!</p>
+                <p>Please let us know if you can make it!</p>
+                <p>Love 💕,</p>
+                <p>Oscar &amp; Kelly 👰‍♀️🤵‍♂️</p>
+            </div>
+		<p class="date">APR 28TH, 2023 • 6.00PM</p>
+		<p class="date">Ampppaaanngggg</p>
+        <div class="schedule">
+            <hr size="1" width="100%" color="black">
+			<h2>Wedding Day Schedule</h2>
+			<table>
+				<tr>
+					<td class="time">3:00 PM</td>
+					<td class="event">Ceremony Begins</td>
+				</tr>
+				<tr>
+					<td class="time">4:00 PM</td>
+					<td class="event">Cocktail Hour</td>
+				</tr>
+				<tr>
+					<td class="time">5:00 PM</td>
+					<td class="event">Reception Begins</td>
+				</tr>
+				<tr>
+					<td class="time">6:30 PM</td>
+					<td class="event">Dinner is Served</td>
+				</tr>
+				<tr>
+					<td class="time">8:00 PM</td>
+					<td class="event">First Dance</td>
+				</tr>
+				<tr>
+					<td class="time">11:00 PM</td>
+					<td class="event">Farewell and Goodnight</td>
+				</tr>
+			</table>
+		<div class="details">
+			<p>We are excited to invite you to our wedding celebration on August 14th, 2023 in the beautiful city of New York. The ceremony will be held at the iconic St. Patrick's Cathedral, followed by a reception at the stunning Plaza Hotel on Fifth Avenue.</p>
+			<p>We can't wait to share this special day with you, and we hope you will join us for an unforgettable evening filled with love, laughter, and joy.</p>
+			<p>If you require accommodations, we have arranged for a block of rooms at the nearby Waldorf Astoria Hotel. Please contact them directly to make your reservation, and mention our wedding to receive a discounted rate.</p>
+		</div>
+	</div>
+    <hr size="1" width="100%" color="black">
+	<div class="footer">
+		<p>Mr. &amp; Mrs. John Smith</p>
+		<p>123 Main Street, New York, NY</p>
+		<p>Website: www.johnandsarahwedding.com</p>
+		<p>Email: johnandsarahwedding@gmail.com</p>
+		<p>Phone: 555-123-4567</p>
+	</div>
+</body>
+</html>
